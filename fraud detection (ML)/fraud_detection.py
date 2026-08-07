@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib 
 
-model = joblib.load('fraud_detection_model.pkl')
+model = joblib.load('fraud detection (ML)/fraud_detection_model.pkl')
 
 st.title('Fraud Detection Prediction App')
 

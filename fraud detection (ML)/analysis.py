@@ -9,7 +9,7 @@ from streamlit import form
 warnings.filterwarnings('ignore')
 sns.set(style='whitegrid')
 
-df = pd.read_csv('AIML Dataset.csv')
+df = pd.read_csv('fraud detection (ML)/AIML Dataset.csv')
 df.head()
 # print(df.head())
 # df.info()
